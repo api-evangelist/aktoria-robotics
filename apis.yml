@@ -1,8 +1,28 @@
 aid: aktoria-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aktoria-robotics.png
 name: Aktoria Robotics
-description: Aktoria Robotics is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Aktoria Robotics is a San Francisco-based robotics company (Y Combinator Summer
+  2026 batch) building a teleoperation and remote-operation layer for robots under
+  the banner "Human as API for Robots." Its platform lets operators run any robot
+  anywhere in the world, remotely collecting operational data from robot fleets 24
+  hours a day, monitoring and intervening in deployed fleets, and moving hardware
+  through a train-to-deploy-to-monitor lifecycle. Founded in 2026 by Shreenabh
+  Agrawal (robotics, Carnegie Mellon University) and Jaskaran Singh Walia
+  (previously a researcher at Microsoft, MIT, CMU, Cambridge, and NUS), the company
+  is at the pre-product-launch stage and does not yet publish a public developer
+  API, SDKs, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/aktoria-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +35,30 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Robotics
+- Teleoperation
+- Robot Fleet Management
+- Data Collection
+- Remote Operation
+- Y Combinator
+- Artificial Intelligence
 apis: []
+common:
+- type: Website
+  url: https://aktoria.com/
+- type: Contact
+  url: mailto:founders@aktoria.com
+- type: DomainSecurity
+  url: security/aktoria-robotics-domain-security.yml
+- type: LLMsTxt
+  url: llms/aktoria-robotics-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

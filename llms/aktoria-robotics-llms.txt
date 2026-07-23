@@ -1,0 +1,24 @@
+# Aktoria Robotics
+
+> Aktoria Robotics is a San Francisco-based robotics company (Y Combinator Summer 2026 batch) building a teleoperation and remote-operation layer for robots — "Human as API for Robots." Its platform lets operators run any robot anywhere in the world: remotely collecting operational data from robot fleets around the clock, monitoring and intervening in deployed fleets, and moving hardware through a train → deploy → monitor lifecycle. The company is at a pre-product-launch stage and does not yet publish a public developer API, SDKs, or documentation.
+
+## About
+
+- [Website](https://aktoria.com/): Company homepage — teleoperation, data collection, fleet management, deployment.
+- Contact: founders@aktoria.com
+- Backed by: Y Combinator (Summer 2026)
+- Location: San Francisco, CA
+- Founded: 2026
+- Founders: Shreenabh Agrawal (robotics, Carnegie Mellon University); Jaskaran Singh Walia (former researcher at Microsoft, MIT, CMU, Cambridge, NUS)
+
+## Products
+
+- Data collection: collect data on your robots, remotely, 24 hours a day.
+- Fleet management: monitor and intervene in deployed robot fleets.
+- Deployment: train → deploy → monitor lifecycle for robots.
+
+## Notes
+
+- No public API, OpenAPI specification, SDKs, or developer documentation were found as of 2026-07-17.
+- No `/.well-known/` discovery documents, `llms.txt`, or public GitHub organization were found.
+- This profile is maintained by API Evangelist (https://apievangelist.com) as part of the APIs.io network catalog.
